@@ -1,0 +1,2 @@
+This file is sent from sender to receiver
+via my chat application
