@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmAid - Agricultural Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xfg3A3f1wGA1w59JUmzp3vyUhbQwtoI6x3kyzVNPOo9J5HrSKdPbAs4SZ2eOTTrt08B+Igj9kH2O6s7rNlc0Vw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Add your CSS styling here */
+        /* Navbar Styling */
+        .navbar {
+            background-color: #343a40 !important;
+        }
+        .navbar-brand {
+            color: #FFF;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: #FFF;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #28a745;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            background-color: #28a745;
+            color: #FFF;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .hero .btn-primary {
+            background-color: #FFF;
+            color: #28a745;
+            border-color: #FFF;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 30px;
+        }
+        .hero .btn-primary:hover {
+            background-color: #28a745;
+            color: #FFF;
+        }
+
+        /* About Section Styling */
+        .about {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .about p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        /* Services Section Styling */
+        .services {
+            background-color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .services h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .services .lead {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .services ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 2;
+        }
+
+        /* Contact Section Styling */
+        .contact {
+            background-color: #007BFF;
+            color: #FFF;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .contact .lead {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .social-icons i {
+            font-size: 30px;
+            margin: 0 10px;
+            color: #FFF;
+        }
+        .social-icons i:hover {
+            color: #28a745;
+        }
+
+        /* Footer Section Styling */
+        .footer {
+            background-color: #343a40;
+            color: #FFF;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .footer p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">FarmAid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#
+                        about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Welcome to FarmAid - Agricultural Solutions</h1>
+            <p class="lead">Transforming agriculture through innovation and technology</p>
+            <a href="/input" class="btn btn-primary btn-lg">Get Prediction</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About FarmAid</h2>
+            <p class="lead">FarmAid is dedicated to providing innovative agricultural solutions that address the challenges faced by farmers worldwide. Our mission is to revolutionize the farming industry by harnessing the power of data and technology.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="lead">At FarmAid, we offer a range of services tailored to meet the needs of modern agriculture:</p>
+            <ul class="lead">
+                <li>Data Analysis for Crop Optimization</li>
+                <li>Precision Farming Solutions</li>
+                <li>Climate Risk Assessment</li>
+                <li>Supply Chain Management</li>
+                <li>And much more...</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="lead">Reach out to us for inquiries, partnerships, or any assistance you may need:</p>
+            <p class="lead">Email: info@farmaid.com | Phone: +123-456-7890</p>
+            <div class="social-icons">
+                <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FarmAid - Agricultural Solutions. All rights reserved.</p>
+            <p>Address: 123 Main Street, Farmville</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Redirecting to Input Page -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the "Get Prediction" button element
+            var getPredictionBtn = document.querySelector(".hero .btn-primary");
+
+            // Add click event listener to the button
+            getPredictionBtn.addEventListener("click", function() {
+                // Redirect to the input page
+                window.location.href = "/input";
+            });
+        });
+    </script>
+
+    <!-- JavaScript for Bootstrap and other functionalities -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
